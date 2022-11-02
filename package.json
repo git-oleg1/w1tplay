@@ -100,10 +100,5 @@
             "npm run docs:toc",
             "git add"
         ]
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
     }
 }

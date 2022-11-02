@@ -2,7 +2,9 @@ const generate = require('videojs-generate-rollup-config');
 
 // see https://github.com/videojs/videojs-generate-rollup-config
 // for options
-const options = {};
+const options = {
+  input: 'src/w1tplayer.js'
+};
 const config = generate(options);
 
 // Add additonal builds/customization here!
